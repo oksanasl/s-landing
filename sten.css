@@ -79,6 +79,7 @@ margin: 30px auto;
 width: 95%;
 box-sizing: border-box;
 text-align: center;
+font-family: "Yu Gothic UI Light", "Microsoft YaHei UI Light", "Bookman Old Style";
 }
 #Benefits_table{
 margin: 35px auto 10px;
@@ -132,7 +133,7 @@ padding: 90px 0 90px 0;
 display: inline;
 font-size: large;
 font-weight: 500; 
-float: right;
+/*float: right;*/
 position: relative;
 }
 #CommodityGroups{
@@ -429,7 +430,4 @@ display: block;
 background-color:#FFA500;
 text-align: center;
 clear: both;
-}
-img {
-width: 100%
 }
