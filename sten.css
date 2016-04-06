@@ -160,7 +160,7 @@ border-radius: 147px;
 border-radius: 50%;
 }
 #WhyUs{
-margin: 30px 10px;
+margin: 60px 10px;
 width: 100%;
 }
 #Grounds{
@@ -184,26 +184,28 @@ display: table-cell;
 }
 .Grounds_circles_box{
 margin: 10px 20px;
-width: 180px;
-height: 180px;
+width: 250px;
+height: 250px;
 display: table;
 }
 .Grounds_circles_border{
-width: 180px;
-height: 180px;
-border: 1px solid black;
-border-radius: 100px;
+width: 240px;
+height: 240px;
+border: 1px #FFA500;
+border-radius: 120px;
 background: #FFA500; 
 vertical-align: middle;
+text-align: middle;
+opacity: 0.7;
 }
 .Grounds_circles_content{
 margin: auto 0;
-padding: 50px 15px 10px; 
+padding: 70px 15px 10px; 
 text-align: center;
 font-family: "Yu Gothic UI Light", "Microsoft YaHei UI Light", "Bookman Old Style";
-font-size: large;
+font-size: x-large;
 font-weight: 600;
-line-height: 25px;
+line-height: 35px;
 display: table-cell;
 vertical-align: middle;
 }
@@ -236,12 +238,17 @@ display: flex;
 float: left;
 box-sizing:;
 }
-.Testimonial_1,.Testimonial_2,.Testimonial_3{
-margin: 15px;
-width: 500px;
-height: 280px;
+.Testimonial_box{
+width: inherit;
+margin: 40px auto;
 display: inline;
-float: left;
+text-align: center;
+}
+.Testimonial_1,.Testimonial_2,.Testimonial_3{
+margin: 15px auto;
+height: 280px;
+max-width: 400px;
+display: inline-block;
 min-height: 280px;
 }
 .Testimonial_image{
@@ -254,6 +261,7 @@ border-radius: 100px;
 border-radius: 100px;
 }
 .Testimonial_icons{
+min-width: 240px;
 margin: 3px;
 display: inline;
 text-align: right;
@@ -266,7 +274,7 @@ font-size: x-large;
 color: #FFA500;
 }
 .Testimonial_icons i:hover{
-color: #00BFFF;
+color: #000000;
 }
 .Testimonial_quotation{
 margin: 3px;
@@ -291,18 +299,16 @@ margin-top: 300px;
 margin: 0;
 width:100%;
 display: block;
-box-sizing:;
 }
 #Distribution_wrap{
 margin: 40px 0 20px;
 display: inline-block;
-box-sizing:;
 }
 .Distribution_line_1,.Distribution_line_2,.Distribution_line_3{
-margin: 0;
+margin: 0 auto;
 float: left;
 width: 100%;
-height: 130px;
+height: 145px;
 line-height: 160px;
 display: flex;
 vertical-align: middle; 
