@@ -89,7 +89,7 @@ display: table;
 }
 .Benefits_row{
 margin: 20px 0;
-display: table-row;
+display: flex;
 vertical-align: middle; 
 }
 .Benefits_subtitle{
@@ -104,11 +104,11 @@ font-weight: 600;
 line-height: 1 em;
 }
 .Benefits_item{
-margin:;
+margin: 10px 0;
 margin-bottom: 30px;
 padding: 10px 15px;
 box-sizing: border-box;
-width: 33.33333333333333%;
+width: 25%;
 display: table-cell;
 vertical-align: middle; 
 min-height: 1px;
