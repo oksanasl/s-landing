@@ -141,7 +141,7 @@ margin: 30px 4%;
 display: inline;
 max-width: 100%;
 }
-#CommodityGroups_wrap{margin: 0 auto;margin-top: 40px;display: inline-block;max-width: 100%;}
+#CommodityGroups_wrap{width: 100%;margin: 0 auto;margin-top: 40px;display: inline-block;max-width: 100%;}
 .CommodityGroups_icons_line_1,.CommodityGroups_icons_line_2,.CommodityGroups_icons_line_3{margin: 0 auto;display: flex;width: 90%;min-height: 250px;line-height: 150px;}
 .CommodityGroups_icons{margin: 0 auto;padding: 5px 10px;width: 12%;display: block;text-align: center;font-family: "Yu Gothic UI Light", "Microsoft YaHei UI Light", "Bookman Old Style";font-size: large;font-weight: 700;line-height: 1;border-radius: 147px;}
 .commodity_image_circle{
@@ -172,16 +172,7 @@ width: 250px;
 height: 250px;
 display: table;
 }
-.Grounds_circles_border{
-width: 240px;
-height: 240px;
-border: 1px #FFA500;
-border-radius: 120px;
-background: #FFA500; 
-vertical-align: middle;
-text-align: middle;
-opacity: 0.7;
-}
+.Grounds_circles_border{width: 100%;height: 240px;border: 1px #FFA500;border-radius: 120px;background: #FFA500;vertical-align: middle;text-align: middle;opacity: 0.7;}
 .Grounds_circles_content{margin: auto 0;padding: 70px 15px 10px;text-align: center;font-family: "Yu Gothic UI Light", "Microsoft YaHei UI Light", "Bookman Old Style";font-size: x-large;font-weight: 600;line-height: 35px;/* display: table-cell; */vertical-align: middle;}
 #Clients{height: 551px;/* margin: 30px 10px; */width: 100%;}
 .Grounds_video{margin: 30px 0 0;width: 100%;height: 195px;display: flex;/* float: left; */min-height: 210px;box-sizing:;}
@@ -235,16 +226,8 @@ color: #000000;
 .Testimonial_quotation{max-height: 130px;margin: 3px;background-image: url(images/speech_bubble1.jpg);background-repeat: no-repeat;background-size: cover;width: 250px;float: right;display: flex;}
 .Testimonial_quotation p{height: 130px;padding: 30px 12px 3px;display: inline-block;font-family: "Yu Gothic UI Light", "Microsoft YaHei UI Light", "Bookman Old Style";font-size: 15px;font-weight: 400;line-height: 1.2;text-align: center;}
 #Distribution{height: 578px;width:100%;display: block;}
-#Distribution_wrap{margin: 50px auto 0;width: 70%;display: block;}
-.Distribution_line_1,.Distribution_line_2,.Distribution_line_3{
-margin: 0 auto;
-float: left;
-width: 100%;
-height: 145px;
-line-height: 160px;
-display: flex;
-vertical-align: middle; 
-}
+#Distribution_wrap{margin: 50px auto 0;width: 100%;display: block;}
+.Distribution_line_1,.Distribution_line_2,.Distribution_line_3{/* margin: 0 auto; */width: 70%;height: 145px;line-height: 160px;display: block;vertical-align: middle;}
 .Distribution_icon{
 margin: 0;
 padding: 5px 10px;
